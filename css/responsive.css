@@ -1,0 +1,52 @@
+@media (max-width: 546px) {
+    
+    header {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        gap: 83px;
+    }
+    
+    .company {
+        font-size: 40px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .select-information {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .botao {
+        transform: translateY(-185%);
+        padding: 15px, 23px;
+    }
+
+    .cadastre-se {
+        font-size: 18px;
+        color: #fff;
+        transform: translateX(0);
+    }
+
+    .information {
+        margin: 0;
+        padding: 17px 40px;
+    }
+}

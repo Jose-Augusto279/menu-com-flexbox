@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    padding: 45px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-information {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.company {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 6px;
+}
+
+.information {
+    margin: 15px;
+    padding: 11px 7px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.cadastre-se {
+    transform: translateX(20px);
+    font-weight: 300;
+    border-radius: 20%;
+    margin: 15px;
+    padding: 11px 20px;
+    z-index: 1;
+    color: #fff;
+}
+
+.information:hover {
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.botao {
+    transform: translateX(-96%);
+}
